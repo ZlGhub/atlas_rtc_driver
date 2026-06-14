@@ -1,0 +1,27 @@
+# ===== kernel module build =====
+*.o
+*.ko
+*.mod.c
+*.cmd
+
+# ===== kernel build system =====
+Module.symvers
+modules.order
+*.order
+*.symvers
+
+# ===== build output =====
+build/
+out/
+
+# ===== temporary files =====
+*.tmp
+*.swp
+*~
+
+# ===== executable =====
+a.out
+
+# ===== IDE =====
+.vscode/
+.idea/
